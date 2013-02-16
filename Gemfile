@@ -38,6 +38,6 @@ gem 'jquery-rails', '2.0.2'
 # gem 'debugger'
 
 #to be used in production with heroku
- group : production do
- 	gem 'pg', '0.12.2'
- end
+ group :production do
+  gem 'pg', '0.14.1'
+end
